@@ -1,9 +1,9 @@
 DIRS = pdu_lib
 
-CROSS_COMPILE=mips-openwrt-linux-
-CC = $(CROSS_COMPILE)gcc
-STRIP = $(CROSS_COMPILE)strip
-CFLAGS = -O2
+#CROSS_COMPILE=mips-openwrt-linux-
+#CC = $(CROSS_COMPILE)gcc
+#STRIP = $(CROSS_COMPILE)strip
+#CFLAGS = -O2
 EXE = sms_tool
 
 OBJS = pdu_lib/pdu.o pdu_lib/ucs2_to_utf8.o

@@ -2,9 +2,9 @@ ALL: pdu_decoder
 
 #CROSS_COMPILE=mips-openwrt-linux-
 
-CC = $(CROSS_COMPILE)gcc
+#CC = $(CROSS_COMPILE)gcc
 
-CFLAGS = -O2
+#CFLAGS = -O2
 
 pdu.o:
 	$(CC) $(CFLAGS) -c pdu.c
